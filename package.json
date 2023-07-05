@@ -11,8 +11,10 @@
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
-
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.13.7",
     "firebase": "^9.23.0",
     "gh-pages": "^5.0.0",
     "react": "^18.2.0",
